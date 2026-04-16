@@ -204,14 +204,13 @@ export default function Landing() {
         <section className={`hero-section${publicContent.enableLandingVanta ? ' vanta-enabled' : ''}`}>
           {publicContent.enableLandingVanta && <div ref={heroVantaRef} className="hero-vanta-bg" />}
           <div className="landing-container hero-content animate-fade-in">
-            <div className="hero-badge">Healthcare AI • Secure • Scalable</div>
+            <div className="hero-badge">AI Clinical Triage • Secure • Intelligent</div>
             <h2>
-              Professional AI Triage <br />
-              <span>for Modern Care Teams</span>
+              AI Clinical Triage<br />
+              <span>and Personal Health Guidance for Modern Care</span>
             </h2>
             <p>
-              CareMax helps healthcare organizations run patient-first triage conversations, route urgent cases faster,
-              and keep every team aligned with secure, clinically aware AI workflows.
+              CareMax helps patients understand symptoms, get safe guidance, and reach the right care faster through clinically-aware AI conversations.
             </p>
             <div className="hero-actions">
               <button onClick={() => navigate('/signup')} disabled={loading} className="cta-primary">Start Free Trial</button>
